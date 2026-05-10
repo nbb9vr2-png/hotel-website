@@ -176,18 +176,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  /* ─── CTA form (demo behavior) ─── */
-  const ctaBtn = document.querySelector('.btn-cta-primary');
-  if (ctaBtn) {
-    ctaBtn.addEventListener('click', () => {
-      const original = ctaBtn.innerHTML;
-      ctaBtn.innerHTML = '✓ &nbsp; Redirecting to booking...';
-      ctaBtn.style.background = '#059669';
-      setTimeout(() => {
-        ctaBtn.innerHTML = original;
-        ctaBtn.style.background = '';
-      }, 2000);
-    });
-  }
+  /* ─── Booking buttons: external link — no JS override ─── */
 
 }); // end DOMContentLoaded
