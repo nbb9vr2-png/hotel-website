@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOMA — Live Like a Local in Kyoto</title>
+  <meta name="description" content="NOMA Apartment Hotel — Spacious, fully-equipped apartments for families and long-stay guests in Kyoto.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================================
+     HEADER
+     ============================================================ -->
+<header id="header">
+  <a class="logo" href="#">NOMA</a>
+
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#concept">Stay</a></li>
+      <li><a href="#rooms">Rooms</a></li>
+      <li><a href="#experience">Explore</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+  </nav>
+
+  <a href="#cta" class="btn-book">Book Now</a>
+
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- Mobile Nav -->
+<div class="mobile-nav" id="mobileNav" style="display:none;">
+  <a href="#concept">Stay</a>
+  <a href="#rooms">Rooms</a>
+  <a href="#experience">Explore</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#faq">FAQ</a>
+  <a href="#cta" style="color: var(--c-accent);">Book Now</a>
+</div>
+
+
+<!-- ============================================================
+     SECTION 1 — HERO
+     ============================================================ -->
+<section id="hero">
+  <div class="hero-image">
+    <img
+      src="https://images.unsplash.com/photo-1580041065738-e72023775cdc?w=1920&q=85&auto=format&fit=crop"
+      alt="NOMA Apartment Hotel — bright Japanese living room with wooden floors"
+    >
+  </div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <p class="hero-label">Kyoto Apartment Hotel</p>
+    <h1 class="hero-headline display">
+      Live Like<br>
+      <em>a Local.</em>
+    </h1>
+    <p class="hero-sub">Spacious apartments for families &amp; long-stay guests</p>
+    <div class="hero-actions">
+      <a href="#cta" class="btn-hero">Book Now</a>
+      <a href="#rooms" class="btn-hero-ghost">View Rooms</a>
+    </div>
+  </div>
+
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 2 — CONCEPT
+     ============================================================ -->
+<section id="concept" class="section">
+  <div class="container">
+    <div class="concept-inner">
+
+      <!-- Text -->
+      <div class="concept-text reveal-left">
+        <span class="label">Our Philosophy</span>
+        <h2 class="display">
+          Travel the way<br>you live.
+        </h2>
+        <p>
+          NOMA is designed for those who want more than a hotel room.
+          For families who need space. For travelers who stay a while.
+          A home away from home, in the heart of Kyoto.
+        </p>
+
+        <div class="concept-features">
+          <div class="concept-feat">
+            <div class="feat-icon">🍳</div>
+            <div class="feat-title">Full Kitchen</div>
+            <div class="feat-desc">Cook your own meals with a fully equipped kitchen.</div>
+          </div>
+          <div class="concept-feat">
+            <div class="feat-icon">👨‍👩‍👧‍👦</div>
+            <div class="feat-title">Family-Sized</div>
+            <div class="feat-desc">Apartments sleeping up to 8 guests comfortably.</div>
+          </div>
+          <div class="concept-feat">
+            <div class="feat-icon">🫧</div>
+            <div class="feat-title">Washer &amp; Dryer</div>
+            <div class="feat-desc">Pack light. In-unit laundry for longer stays.</div>
+          </div>
+          <div class="concept-feat">
+            <div class="feat-icon">📅</div>
+            <div class="feat-title">Long Stay Rates</div>
+            <div class="feat-desc">Special pricing for 7-night and 30-night stays.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image -->
+      <div class="concept-image reveal-right">
+        <img
+          src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=80&auto=format&fit=crop"
+          alt="NOMA apartment kitchen with wooden counters"
+        >
+        <div class="concept-image-badge">
+          <div class="badge-num">8</div>
+          <div class="badge-text">max guests per suite</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 3 — ROOMS
+     ============================================================ -->
+<section id="rooms" class="section" style="background: var(--c-cream);">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="label">Accommodations</span>
+      <h2 class="display">Find your perfect stay</h2>
+      <p>Every apartment is thoughtfully designed with Japanese craftsmanship and the comfort of home.</p>
+    </div>
+
+    <div class="rooms-grid">
+
+      <!-- Room 1 -->
+      <div class="room-card reveal reveal-delay-1">
+        <div class="room-img">
+          <img
+            src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80&auto=format&fit=crop"
+            alt="Studio Suite — cozy Japanese-modern studio"
+          >
+          <div class="room-tag">Best for couples</div>
+        </div>
+        <div class="room-body">
+          <div class="room-name display">Studio Suite</div>
+          <p class="room-desc">A beautifully compact retreat with a kitchenette, premium bedding, and a private balcony overlooking the neighborhood.</p>
+          <div class="room-meta">
+            <div class="room-meta-item"><span class="meta-icon">👤</span> 1–2 guests</div>
+            <div class="room-meta-item"><span class="meta-icon">📐</span> 35 m²</div>
+            <div class="room-meta-item"><span class="meta-icon">🛏</span> 1 Queen</div>
+          </div>
+          <a href="#cta" class="room-cta">Reserve → </a>
+        </div>
+      </div>
+
+      <!-- Room 2 -->
+      <div class="room-card reveal reveal-delay-2">
+        <div class="room-img">
+          <img
+            src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80&auto=format&fit=crop"
+            alt="One-Bedroom — bright Japanese apartment living room"
+          >
+          <div class="room-tag">Most popular</div>
+        </div>
+        <div class="room-body">
+          <div class="room-name display">One Bedroom</div>
+          <p class="room-desc">A spacious one-bedroom apartment with a separate living room, full kitchen, and in-unit washer and dryer. Perfect for families of 3–4.</p>
+          <div class="room-meta">
+            <div class="room-meta-item"><span class="meta-icon">👤</span> 2–4 guests</div>
+            <div class="room-meta-item"><span class="meta-icon">📐</span> 55 m²</div>
+            <div class="room-meta-item"><span class="meta-icon">🛏</span> 1 King + sofa</div>
+          </div>
+          <a href="#cta" class="room-cta">Reserve → </a>
+        </div>
+      </div>
+
+      <!-- Room 3 -->
+      <div class="room-card reveal reveal-delay-3">
+        <div class="room-img">
+          <img
+            src="https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=800&q=80&auto=format&fit=crop"
+            alt="Two Bedroom — Japanese-style tatami bedroom"
+          >
+          <div class="room-tag">Great for families</div>
+        </div>
+        <div class="room-body">
+          <div class="room-name display">Two Bedroom</div>
+          <p class="room-desc">Two bedrooms — one with a Western bed, one with traditional Japanese futon mats — surrounding an open-plan living and dining space.</p>
+          <div class="room-meta">
+            <div class="room-meta-item"><span class="meta-icon">👤</span> 4–6 guests</div>
+            <div class="room-meta-item"><span class="meta-icon">📐</span> 80 m²</div>
+            <div class="room-meta-item"><span class="meta-icon">🛏</span> 1 Queen + futons</div>
+          </div>
+          <a href="#cta" class="room-cta">Reserve → </a>
+        </div>
+      </div>
+
+      <!-- Room 4 -->
+      <div class="room-card reveal reveal-delay-4">
+        <div class="room-img">
+          <img
+            src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80&auto=format&fit=crop"
+            alt="Family Suite — large apartment with garden view"
+          >
+          <div class="room-tag">Long stay favorite</div>
+        </div>
+        <div class="room-body">
+          <div class="room-name display">Family Suite</div>
+          <p class="room-desc">Our largest apartment, with three bedrooms, a full kitchen, dining table for 8, and a private garden terrace — your home in Kyoto.</p>
+          <div class="room-meta">
+            <div class="room-meta-item"><span class="meta-icon">👤</span> 6–8 guests</div>
+            <div class="room-meta-item"><span class="meta-icon">📐</span> 120 m²</div>
+            <div class="room-meta-item"><span class="meta-icon">🛏</span> 3 rooms</div>
+          </div>
+          <a href="#cta" class="room-cta">Reserve → </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 4 — EXPERIENCE / EXPLORE
+     ============================================================ -->
+<section id="experience" class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="label">Around You</span>
+      <h2 class="display">Discover Kyoto</h2>
+      <p>Temples, markets, hidden cafés — everything that makes Kyoto unforgettable is right outside your door.</p>
+    </div>
+
+    <div class="exp-grid">
+
+      <div class="exp-card wide reveal reveal-delay-1">
+        <img
+          src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1200&q=80&auto=format&fit=crop"
+          alt="Fushimi Inari shrine gates — iconic Kyoto experience"
+        >
+        <div class="exp-overlay"></div>
+        <div class="exp-content">
+          <div class="exp-tag">Sightseeing</div>
+          <div class="exp-name display">Ancient Temples<br>&amp; Shrines</div>
+          <div class="exp-desc">Over 1,600 temples within the city. Fushimi Inari is a 12-minute train ride away.</div>
+        </div>
+      </div>
+
+      <div class="exp-card reveal reveal-delay-2">
+        <img
+          src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=600&q=80&auto=format&fit=crop"
+          alt="Local ramen restaurant in Kyoto"
+        >
+        <div class="exp-overlay"></div>
+        <div class="exp-content">
+          <div class="exp-tag">Dining</div>
+          <div class="exp-name display">Local Restaurants</div>
+          <div class="exp-desc">Neighborhood izakayas and ramen shops steps away.</div>
+        </div>
+      </div>
+
+      <div class="exp-card reveal reveal-delay-3">
+        <img
+          src="https://images.unsplash.com/photo-1573408301185-9519f94815dd?w=600&q=80&auto=format&fit=crop"
+          alt="Traditional Nishiki Market in Kyoto"
+        >
+        <div class="exp-overlay"></div>
+        <div class="exp-content">
+          <div class="exp-tag">Local Life</div>
+          <div class="exp-name display">Nishiki Market</div>
+          <div class="exp-desc">Fresh produce, street food, and local crafts since 1310.</div>
+        </div>
+      </div>
+
+      <div class="exp-card reveal reveal-delay-1">
+        <img
+          src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=600&q=80&auto=format&fit=crop"
+          alt="Kyoto specialty coffee cafe interior"
+        >
+        <div class="exp-overlay"></div>
+        <div class="exp-content">
+          <div class="exp-tag">Café Culture</div>
+          <div class="exp-name display">Third-Wave Cafés</div>
+          <div class="exp-desc">Specialty coffee shops within a 5-minute walk.</div>
+        </div>
+      </div>
+
+      <!-- Map-style card -->
+      <div class="map-card reveal reveal-delay-2">
+        <div class="map-dots"></div>
+        <div class="map-content">
+          <div class="map-location">
+            <span>📍</span>
+            <span>Kyoto, Japan</span>
+          </div>
+          <h3 class="display">Central Kyoto<br>Location</h3>
+          <p>Nakagyo Ward — walk to Nijo Castle, cycle to Gion, and train to Arashiyama in 20 min.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 5 — GALLERY
+     ============================================================ -->
+<section id="gallery" class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="label">Gallery</span>
+      <h2 class="display">Life at NOMA</h2>
+      <p>A glimpse into the spaces, light, and textures that make NOMA feel like home.</p>
+    </div>
+  </div>
+
+  <div class="gallery-grid">
+    <div class="gallery-item reveal">
+      <img
+        src="https://images.unsplash.com/photo-1570129477492-45c003dc8c17?w=1000&q=80&auto=format&fit=crop"
+        alt="NOMA apartment — warm interior with wooden floors"
+      >
+      <div class="gallery-hover"><div class="gallery-hover-icon">✦</div></div>
+    </div>
+    <div class="gallery-item reveal reveal-delay-1">
+      <img
+        src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80&auto=format&fit=crop"
+        alt="NOMA kitchen — bright Japanese kitchen"
+      >
+      <div class="gallery-hover"><div class="gallery-hover-icon">✦</div></div>
+    </div>
+    <div class="gallery-item reveal reveal-delay-2">
+      <img
+        src="https://images.unsplash.com/photo-1587985064135-0366536eab42?w=600&q=80&auto=format&fit=crop"
+        alt="NOMA bedroom — minimal Japanese-modern bedroom"
+      >
+      <div class="gallery-hover"><div class="gallery-hover-icon">✦</div></div>
+    </div>
+    <div class="gallery-item reveal reveal-delay-3">
+      <img
+        src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80&auto=format&fit=crop"
+        alt="NOMA living room — large family apartment living room"
+      >
+      <div class="gallery-hover"><div class="gallery-hover-icon">✦</div></div>
+    </div>
+    <div class="gallery-item reveal reveal-delay-4">
+      <img
+        src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=600&q=80&auto=format&fit=crop"
+        alt="NOMA balcony — morning coffee with city view"
+      >
+      <div class="gallery-hover"><div class="gallery-hover-icon">✦</div></div>
+    </div>
+    <div class="gallery-item reveal reveal-delay-1">
+      <img
+        src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=80&auto=format&fit=crop"
+        alt="NOMA bathroom — Japanese hinoki wood bathroom"
+      >
+      <div class="gallery-hover"><div class="gallery-hover-icon">✦</div></div>
+    </div>
+    <div class="gallery-item reveal reveal-delay-2">
+      <img
+        src="https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=600&q=80&auto=format&fit=crop"
+        alt="NOMA dining area — family dining table"
+      >
+      <div class="gallery-hover"><div class="gallery-hover-icon">✦</div></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 6 — FAQ
+     ============================================================ -->
+<section id="faq" class="section" style="background:var(--c-white);">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="label">Questions</span>
+      <h2 class="display">Good to know</h2>
+    </div>
+
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <button class="faq-question">
+          What's included in each apartment?
+          <div class="faq-icon">
+            <svg fill="none" viewBox="0 0 12 12" stroke="currentColor" stroke-width="1.5">
+              <path d="M6 2v8M2 6h8" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            All apartments include a fully equipped kitchen (refrigerator, microwave, IH cooktop, kettle, dishes and utensils), a washing machine and dryer, high-speed Wi-Fi, smart TV, and premium Kyoto-made bedding and toiletries. Towels and linens are provided.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          Do you offer long-stay discounts?
+          <div class="faq-icon">
+            <svg fill="none" viewBox="0 0 12 12" stroke="currentColor" stroke-width="1.5">
+              <path d="M6 2v8M2 6h8" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Yes — we offer 10% off for 7-night stays and 20% off for stays of 30 nights or more. These rates are automatically applied when you book via our website. Contact us directly for custom long-term arrangements.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          Is NOMA suitable for families with young children?
+          <div class="faq-icon">
+            <svg fill="none" viewBox="0 0 12 12" stroke="currentColor" stroke-width="1.5">
+              <path d="M6 2v8M2 6h8" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Absolutely. NOMA is designed with families in mind. We can provide portable cots, high chairs, and children's tableware upon request at no extra charge. Our apartments give children room to play, and the neighborhood is safe and walkable.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          What are the check-in and check-out times?
+          <div class="faq-icon">
+            <svg fill="none" viewBox="0 0 12 12" stroke="currentColor" stroke-width="1.5">
+              <path d="M6 2v8M2 6h8" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Standard check-in is 3:00 PM and check-out is 11:00 AM. Self check-in is available 24/7 via a digital key. Early check-in and late check-out can be arranged (subject to availability) — please request when booking.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          Is there a concierge or support service?
+          <div class="faq-icon">
+            <svg fill="none" viewBox="0 0 12 12" stroke="currentColor" stroke-width="1.5">
+              <path d="M6 2v8M2 6h8" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Our guest services team is available by phone, chat, and email from 8:00 AM to 10:00 PM daily. We speak English, Japanese, and Chinese. We're happy to help with restaurant recommendations, transport, day trips, and anything else you need.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          How close are you to major attractions?
+          <div class="faq-icon">
+            <svg fill="none" viewBox="0 0 12 12" stroke="currentColor" stroke-width="1.5">
+              <path d="M6 2v8M2 6h8" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            NOMA is located in central Nakagyo Ward. Nijo Castle is a 10-minute walk. Nishiki Market is 8 minutes. Gion is a 15-minute cycle. Arashiyama Bamboo Grove is 20 minutes by train. Kyoto Station is 12 minutes by subway.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     SECTION 7 — CTA
+     ============================================================ -->
+<section id="cta">
+  <div class="cta-bg"></div>
+  <div class="cta-inner reveal">
+    <span class="label">Book Direct &amp; Save</span>
+    <h2 class="display">Your home<br>in Kyoto awaits.</h2>
+    <p>Book on our official site for the best available rate — no booking fees, free cancellation up to 48 hours before arrival.</p>
+
+    <div class="cta-badges">
+      <div class="cta-badge"><div class="cta-badge-dot"></div> Best Rate Guarantee</div>
+      <div class="cta-badge"><div class="cta-badge-dot"></div> Free Cancellation</div>
+      <div class="cta-badge"><div class="cta-badge-dot"></div> No Hidden Fees</div>
+    </div>
+
+    <button class="btn-cta-primary">
+      <span>Book Your Stay</span>
+      <span>→</span>
+    </button>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer id="footer">
+  <div class="footer-inner">
+
+    <div class="footer-brand">
+      <a class="logo" href="#">NOMA</a>
+      <p>Apartment hotel for families and long-stay guests in the heart of Kyoto, Japan.</p>
+      <div class="footer-social">
+        <a href="#" class="social-btn" aria-label="Instagram">𝕀</a>
+        <a href="#" class="social-btn" aria-label="Facebook">𝔽</a>
+        <a href="#" class="social-btn" aria-label="X (Twitter)">𝕏</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Stay</h4>
+      <a href="#rooms">Studio Suite</a>
+      <a href="#rooms">One Bedroom</a>
+      <a href="#rooms">Two Bedroom</a>
+      <a href="#rooms">Family Suite</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Access</h4>
+      <a href="#">Nakagyo Ward, Kyoto</a>
+      <a href="#">12 min · Kyoto Station</a>
+      <a href="#">Airport Shuttle</a>
+      <a href="#">Google Maps →</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Language</h4>
+      <div class="lang-switch">
+        <button class="lang-btn active">EN</button>
+        <button class="lang-btn">日本語</button>
+        <button class="lang-btn">中文</button>
+        <button class="lang-btn">한국어</button>
+      </div>
+      <br>
+      <h4 style="margin-top:8px;">Contact</h4>
+      <a href="mailto:hello@noma-kyoto.com">hello@noma-kyoto.com</a>
+      <a href="tel:+81752001234">+81-75-200-1234</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2024 NOMA Apartment Hotel. All rights reserved.</p>
+    <p>Privacy Policy · Terms of Use · Cookie Settings</p>
+  </div>
+</footer>
+
+
+<!-- Scripts -->
+<script src="script.js"></script>
+</body>
+</html>
